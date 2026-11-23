@@ -1,0 +1,58 @@
+export const restaurants = [
+  {
+    id: 1,
+    name: "Spice Route Kitchen",
+    category: "Indian",
+    emoji: "🍛",
+    rating: 4.5,
+    time: "30-35 min",
+    menu: [
+      { id: 101, name: "Butter Chicken", price: 280, desc: "Creamy tomato gravy, tender chicken" },
+      { id: 102, name: "Paneer Tikka", price: 220, desc: "Grilled cottage cheese with mint chutney" },
+      { id: 103, name: "Veg Biryani", price: 190, desc: "Fragrant rice with vegetables and raita" },
+      { id: 104, name: "Garlic Naan", price: 45, desc: "Soft tandoor bread with garlic butter" },
+    ],
+  },
+  {
+    id: 2,
+    name: "Napoli Slice",
+    category: "Pizza",
+    emoji: "🍕",
+    rating: 4.3,
+    time: "25-30 min",
+    menu: [
+      { id: 201, name: "Margherita", price: 249, desc: "Tomato, mozzarella and basil" },
+      { id: 202, name: "Farmhouse", price: 329, desc: "Mushroom, capsicum, onion and olives" },
+      { id: 203, name: "Garlic Bread", price: 119, desc: "Toasted with herb butter" },
+      { id: 204, name: "Choco Lava Cake", price: 99, desc: "Warm cake with molten centre" },
+    ],
+  },
+  {
+    id: 3,
+    name: "Stack House Burgers",
+    category: "Burgers",
+    emoji: "🍔",
+    rating: 4.2,
+    time: "20-25 min",
+    menu: [
+      { id: 301, name: "Classic Chicken Burger", price: 169, desc: "Crispy chicken, lettuce, house sauce" },
+      { id: 302, name: "Aloo Tikki Burger", price: 119, desc: "Spiced potato patty with cheese" },
+      { id: 303, name: "Peri Peri Fries", price: 99, desc: "Crisp fries with peri peri seasoning" },
+      { id: 304, name: "Cold Coffee", price: 109, desc: "Thick, chilled and lightly sweet" },
+    ],
+  },
+  {
+    id: 4,
+    name: "Green Bowl",
+    category: "Healthy",
+    emoji: "🥗",
+    rating: 4.6,
+    time: "25-30 min",
+    menu: [
+      { id: 401, name: "Quinoa Power Bowl", price: 259, desc: "Quinoa, chickpeas, avocado, greens" },
+      { id: 402, name: "Greek Salad", price: 199, desc: "Cucumber, olives, feta, olive oil" },
+      { id: 403, name: "Fruit Smoothie", price: 139, desc: "Banana, berries and yogurt" },
+      { id: 404, name: "Grilled Veg Wrap", price: 179, desc: "Whole wheat wrap with hummus" },
+    ],
+  },
+];
